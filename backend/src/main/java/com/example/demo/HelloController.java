@@ -9,7 +9,7 @@ import java.util.Map;
 // Sementara pakai "*" biar gampang testing dulu.
 // Setelah frontend live di Vercel, ganti jadi domain Vercel-nya, misal:
 // @CrossOrigin(origins = "https://nama-app-kamu.vercel.app")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://test-deploy-xi-five.vercel.app")
 public class HelloController {
 
     @GetMapping("/api/hello")
